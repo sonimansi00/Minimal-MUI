@@ -1,0 +1,56 @@
+{
+  "name": "minimal-mui-ui-mcp",
+  "version": "0.1.0",
+  "description": "Component-level UI skills for MUI-based enterprise applications",
+  "status": "production-used",
+  "used_in": ["livestream"],
+  "ui_framework": "mui",
+
+  "requires_theme": true,
+  "theme_dependency": {
+    "type": "mui-theme",
+    "name": "minimal-mui-theme",
+    "location": "theme/",
+    "purpose": "Reference theme for correct visual rendering"
+  },
+
+  "skills_root": "skills",
+
+  "skills": [
+    "accordion",
+    "alert",
+    "api-integration",
+    "autocomplete",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "buttons",
+    "chart",
+    "checkbox",
+    "chip",
+    "dashboard-graph-generator-apex",
+    "datagrid",
+    "date-picker",
+    "dialog",
+    "drawer",
+    "formbuilder",
+    "list",
+    "menu",
+    "page-tab",
+    "pagination",
+    "popover",
+    "progress",
+    "radio-button",
+    "rating",
+    "slider",
+    "state-management",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "text-field",
+    "tooltip",
+    "transfer-list",
+    "tree-view"
+  ]
+}
